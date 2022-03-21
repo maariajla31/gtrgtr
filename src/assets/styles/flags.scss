@@ -1,0 +1,991 @@
+
+.flag-box {
+  width: 16px;
+  height: 16px;
+  background: url("../img/flags_shine_16x16_sprite.png") -10px -10px;
+
+  .flag {
+    width: 16px;
+    height: 16px;
+  }
+
+  .flag._unknown {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -10px;
+  }
+
+  .flag.AD {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -10px;
+  }
+
+  .flag.AE {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -46px;
+  }
+
+  .flag.AF {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -46px;
+  }
+
+  .flag.AG {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -10px;
+  }
+
+  .flag.AI {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -46px;
+  }
+
+  .flag.AL {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -82px;
+  }
+
+  .flag.AM {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -82px;
+  }
+
+  .flag.AN {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -82px;
+  }
+
+  .flag.AO {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -10px;
+  }
+
+  .flag.AQ {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -46px;
+  }
+
+  .flag.AR {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -82px;
+  }
+
+  .flag.AS {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -118px;
+  }
+
+  .flag.AT {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -118px;
+  }
+
+  .flag.AU {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -118px;
+  }
+
+  .flag.AW {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -118px;
+  }
+
+  .flag.AX {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -10px;
+  }
+
+  .flag.AZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -46px;
+  }
+
+  .flag.BA {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -82px;
+  }
+
+  .flag.BB {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -118px;
+  }
+
+  .flag.BD {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -154px;
+  }
+
+  .flag.BE {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -154px;
+  }
+
+  .flag.BF {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -154px;
+  }
+
+  .flag.BG {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -154px;
+  }
+
+  .flag.BH {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -154px;
+  }
+
+  .flag.BI {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -10px;
+  }
+
+  .flag.BJ {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -46px;
+  }
+
+  .flag.BL {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -82px;
+  }
+
+  .flag.BM {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -118px;
+  }
+
+  .flag.BN {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -154px;
+  }
+
+  .flag.BO {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -190px;
+  }
+
+  .flag.BR {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -190px;
+  }
+
+  .flag.BS {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -190px;
+  }
+
+  .flag.BT {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -190px;
+  }
+
+  .flag.BW {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -190px;
+  }
+
+  .flag.BY {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -190px;
+  }
+
+  .flag.BZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -10px;
+  }
+
+  .flag.CA {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -46px;
+  }
+
+  .flag.CC {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -82px;
+  }
+
+  .flag.CD {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -118px;
+  }
+
+  .flag.CF {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -154px;
+  }
+
+  .flag.CG {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -190px;
+  }
+
+  .flag.CH {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -226px;
+  }
+
+  .flag.CI {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -226px;
+  }
+
+  .flag.CK {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -226px;
+  }
+
+  .flag.CL {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -226px;
+  }
+
+  .flag.CM {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -226px;
+  }
+
+  .flag.CN {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -226px;
+  }
+
+  .flag.CO {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -226px;
+  }
+
+  .flag.CR {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -10px;
+  }
+
+  .flag.CT {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -46px;
+  }
+
+  .flag.CU {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -82px;
+  }
+
+  .flag.CV {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -118px;
+  }
+
+  .flag.CW {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -154px;
+  }
+
+  .flag.CX {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -190px;
+  }
+
+  .flag.CY {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -226px;
+  }
+
+  .flag.CZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -262px;
+  }
+
+  .flag.DE {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -262px;
+  }
+
+  .flag.DJ {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -262px;
+  }
+
+  .flag.DK {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -262px;
+  }
+
+  .flag.DM {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -262px;
+  }
+
+  .flag.DO {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -262px;
+  }
+
+  .flag.DZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -262px;
+  }
+
+  .flag.EC {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -262px;
+  }
+
+  .flag.EE {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -10px;
+  }
+
+  .flag.EH {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -46px;
+  }
+
+  .flag.EG {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -82px;
+  }
+
+  .flag.ER {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -118px;
+  }
+
+  .flag.ES {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -154px;
+  }
+
+  .flag.ET {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -190px;
+  }
+
+  .flag.EU {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -226px;
+  }
+
+  .flag.FI {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -262px;
+  }
+
+  .flag.FJ {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -298px;
+  }
+
+  .flag.FK {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -298px;
+  }
+
+  .flag.FM {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -298px;
+  }
+
+  .flag.FO {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -298px;
+  }
+
+  .flag.FR {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -298px;
+  }
+
+  .flag.GA {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -298px;
+  }
+
+  .flag.GB {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -298px;
+  }
+
+  .flag.GD {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -298px;
+  }
+
+  .flag.GE {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -298px;
+  }
+
+  .flag.GG {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -10px;
+  }
+
+  .flag.GH {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -46px;
+  }
+
+  .flag.GI {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -82px;
+  }
+
+  .flag.GL {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -118px;
+  }
+
+  .flag.GM {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -154px;
+  }
+
+  .flag.GN {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -190px;
+  }
+
+  .flag.GQ {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -226px;
+  }
+
+  .flag.GR {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -262px;
+  }
+
+  .flag.GS {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -298px;
+  }
+
+  .flag.GT {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -334px;
+  }
+
+  .flag.GU {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -334px;
+  }
+
+  .flag.GW {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -334px;
+  }
+
+  .flag.GY {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -334px;
+  }
+
+  .flag.HK {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -334px;
+  }
+
+  .flag.HN {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -334px;
+  }
+
+  .flag.HR {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -334px;
+  }
+
+  .flag.HT {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -334px;
+  }
+
+  .flag.HU {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -334px;
+  }
+
+  .flag.IC {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -334px;
+  }
+
+  .flag.ID {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -10px;
+  }
+
+  .flag.IE {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -46px;
+  }
+
+  .flag.IL {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -82px;
+  }
+
+  .flag.IM {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -118px;
+  }
+
+  .flag.IN {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -154px;
+  }
+
+  .flag.IQ {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -190px;
+  }
+
+  .flag.IR {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -226px;
+  }
+
+  .flag.IS {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -262px;
+  }
+
+  .flag.IT {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -298px;
+  }
+
+  .flag.JE {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -334px;
+  }
+
+  .flag.JM {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -370px;
+  }
+
+  .flag.JO {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -370px;
+  }
+
+  .flag.JP {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -370px;
+  }
+
+  .flag.KE {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -370px;
+  }
+
+  .flag.KG {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -370px;
+  }
+
+  .flag.KH {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -370px;
+  }
+
+  .flag.KI {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -370px;
+  }
+
+  .flag.KM {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -370px;
+  }
+
+  .flag.KN {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -370px;
+  }
+
+  .flag.KP {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -370px;
+  }
+
+  .flag.KR {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -370px;
+  }
+
+  .flag.KW {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -10px;
+  }
+
+  .flag.KY {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -46px;
+  }
+
+  .flag.KZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -82px;
+  }
+
+  .flag.LA {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -118px;
+  }
+
+  .flag.LB {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -154px;
+  }
+
+  .flag.LC {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -190px;
+  }
+
+  .flag.LI {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -226px;
+  }
+
+  .flag.LK {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -262px;
+  }
+
+  .flag.LR {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -298px;
+  }
+
+  .flag.LS {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -334px;
+  }
+
+  .flag.LT {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -370px;
+  }
+
+  .flag.LU {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -406px;
+  }
+
+  .flag.LV {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -406px;
+  }
+
+  .flag.LY {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -406px;
+  }
+
+  .flag.MA {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -406px;
+  }
+
+  .flag.MC {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -406px;
+  }
+
+  .flag.MD {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -406px;
+  }
+
+  .flag.ME {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -406px;
+  }
+
+  .flag.MF {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -406px;
+  }
+
+  .flag.MG {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -406px;
+  }
+
+  .flag.MH {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -406px;
+  }
+
+  .flag.MK {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -406px;
+  }
+
+  .flag.ML {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -406px;
+  }
+
+  .flag.MM {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -10px;
+  }
+
+  .flag.MN {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -46px;
+  }
+
+  .flag.MO {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -82px;
+  }
+
+  .flag.MP {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -118px;
+  }
+
+  .flag.MQ {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -154px;
+  }
+
+  .flag.MR {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -190px;
+  }
+
+  .flag.MS {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -226px;
+  }
+
+  .flag.MT {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -262px;
+  }
+
+  .flag.MU {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -298px;
+  }
+
+  .flag.MV {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -334px;
+  }
+
+  .flag.MW {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -370px;
+  }
+
+  .flag.MX {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -406px;
+  }
+
+  .flag.MY {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -442px;
+  }
+
+  .flag.MZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -442px;
+  }
+
+  .flag.NA {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -442px;
+  }
+
+  .flag.NC {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -442px;
+  }
+
+  .flag.NE {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -442px;
+  }
+
+  .flag.NF {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -442px;
+  }
+
+  .flag.NG {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -442px;
+  }
+
+  .flag.NI {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -442px;
+  }
+
+  .flag.NL {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -442px;
+  }
+
+  .flag.NO {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -442px;
+  }
+
+  .flag.NP {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -442px;
+  }
+
+  .flag.NR {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -442px;
+  }
+
+  .flag.NU {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -442px;
+  }
+
+  .flag.NZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -10px;
+  }
+
+  .flag.OM {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -46px;
+  }
+
+  .flag.PA {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -82px;
+  }
+
+  .flag.PE {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -118px;
+  }
+
+  .flag.PF {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -154px;
+  }
+
+  .flag.PG {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -190px;
+  }
+
+  .flag.PH {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -226px;
+  }
+
+  .flag.PK {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -262px;
+  }
+
+  .flag.PL {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -298px;
+  }
+
+  .flag.PN {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -334px;
+  }
+
+  .flag.PR {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -370px;
+  }
+
+  .flag.PS {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -406px;
+  }
+
+  .flag.PT {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -442px;
+  }
+
+  .flag.PW {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -478px;
+  }
+
+  .flag.PY {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -478px;
+  }
+
+  .flag.QA {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -478px;
+  }
+
+  .flag.RE {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -478px;
+  }
+
+  .flag.RO {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -478px;
+  }
+
+  .flag.RS {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -478px;
+  }
+
+  .flag.RU {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -478px;
+  }
+
+  .flag.RW {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -478px;
+  }
+
+  .flag.SA {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -478px;
+  }
+
+  .flag.SB {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -478px;
+  }
+
+  .flag.SC {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -478px;
+  }
+
+  .flag.SD {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -478px;
+  }
+
+  .flag.SE {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -478px;
+  }
+
+  .flag.SG {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -478px;
+  }
+
+  .flag.SH {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -10px;
+  }
+
+  .flag.SI {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -46px;
+  }
+
+  .flag.SK {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -82px;
+  }
+
+  .flag.SL {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -118px;
+  }
+
+  .flag.SM {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -154px;
+  }
+
+  .flag.SN {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -190px;
+  }
+
+  .flag.SO {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -226px;
+  }
+
+  .flag.SR {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -262px;
+  }
+
+  .flag.SS {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -298px;
+  }
+
+  .flag.ST {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -334px;
+  }
+
+  .flag.SV {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -370px;
+  }
+
+  .flag.SX {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -406px;
+  }
+
+  .flag.SY {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -442px;
+  }
+
+  .flag.SZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -478px;
+  }
+
+  .flag.TC {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -514px;
+  }
+
+  .flag.TD {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -514px;
+  }
+
+  .flag.TF {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -514px;
+  }
+
+  .flag.TG {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -514px;
+  }
+
+  .flag.TH {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -514px;
+  }
+
+  .flag.TJ {
+    background: url("../img/flags_shine_16x16_sprite.png") -190px -514px;
+  }
+
+  .flag.TK {
+    background: url("../img/flags_shine_16x16_sprite.png") -226px -514px;
+  }
+
+  .flag.TL {
+    background: url("../img/flags_shine_16x16_sprite.png") -262px -514px;
+  }
+
+  .flag.TM {
+    background: url("../img/flags_shine_16x16_sprite.png") -298px -514px;
+  }
+
+  .flag.TN {
+    background: url("../img/flags_shine_16x16_sprite.png") -334px -514px;
+  }
+
+  .flag.TO {
+    background: url("../img/flags_shine_16x16_sprite.png") -370px -514px;
+  }
+
+  .flag.TR {
+    background: url("../img/flags_shine_16x16_sprite.png") -406px -514px;
+  }
+
+  .flag.TT {
+    background: url("../img/flags_shine_16x16_sprite.png") -442px -514px;
+  }
+
+  .flag.TV {
+    background: url("../img/flags_shine_16x16_sprite.png") -478px -514px;
+  }
+
+  .flag.TW {
+    background: url("../img/flags_shine_16x16_sprite.png") -514px -514px;
+  }
+
+  .flag.TZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -10px;
+  }
+
+  .flag.UA {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -46px;
+  }
+
+  .flag.UG {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -82px;
+  }
+
+  .flag.US {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -118px;
+  }
+
+  .flag.UY {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -154px;
+  }
+
+  .flag.UZ {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -190px;
+  }
+
+  .flag.VA {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -226px;
+  }
+
+  .flag.VC {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -262px;
+  }
+
+  .flag.VE {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -298px;
+  }
+
+  .flag.VG {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -334px;
+  }
+
+  .flag.VI {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -370px;
+  }
+
+  .flag.VN {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -406px;
+  }
+
+  .flag.VU {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -442px;
+  }
+
+  .flag.WF {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -478px;
+  }
+
+  .flag.WS {
+    background: url("../img/flags_shine_16x16_sprite.png") -550px -514px;
+  }
+
+  .flag.YE {
+    background: url("../img/flags_shine_16x16_sprite.png") -10px -550px;
+  }
+
+  .flag.YT {
+    background: url("../img/flags_shine_16x16_sprite.png") -46px -550px;
+  }
+
+  .flag.ZA {
+    background: url("../img/flags_shine_16x16_sprite.png") -82px -550px;
+  }
+
+  .flag.ZM {
+    background: url("../img/flags_shine_16x16_sprite.png") -118px -550px;
+  }
+
+  .flag.ZW {
+    background: url("../img/flags_shine_16x16_sprite.png") -154px -550px;
+  }
+}
